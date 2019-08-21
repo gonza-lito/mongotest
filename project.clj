@@ -11,7 +11,8 @@
                  [org.clojure/clojure "1.10.0"]
                  [org.clojure/clojurescript "1.10.439"]
                  ;; needed for JDK 9 compatibility
-                 [javax.xml.bind/jaxb-api "2.3.0"]]
+                 [javax.xml.bind/jaxb-api "2.3.0"]
+                 ]
   :min-lein-version "2.0.0"
   :jvm-opts ^:replace ["-Xmx1g" "-server"]
   :plugins [[lein-doo "0.1.7"]
